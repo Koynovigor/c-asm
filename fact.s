@@ -1,8 +1,8 @@
-global do_higload
+global print_fact
 
 section .text
 
-do_higload:
+print_fact:
 
     push ebp
     mov ebp, esp
